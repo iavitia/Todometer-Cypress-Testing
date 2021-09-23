@@ -34,7 +34,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "cypress": "npx cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,7 +54,9 @@
   },
   "dependencies": {
     "@reach/accordion": "^0.8.0",
+    "cypress": "^7.7.0",
     "date-fns": "^2.9.0",
+    "eslint-plugin-cypress": "^2.11.3",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "^4.0.1"
